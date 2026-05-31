@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+                 xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+                 xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="RunDisplay.5d077175-ae5b-43f2-9ff1-7497f5fa0c31"
+				  Version="1.0"
+				  Language="en-US"
+				  Publisher="RunDisplay" />
+		<DisplayName>RunDisplay</DisplayName>
+		<Description>Extensão RunDisplay com API pública.</Description>
+	</Metadata>
+
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio" Version="[17.0, )">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+	</Installation>
+
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP"
+					DisplayName="Microsoft .NET Framework"
+					d:Source="Manual"
+					Version="[4.5,)" />
+	</Dependencies>
+
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor"
+					  Version="[17.0, )"
+					  DisplayName="Visual Studio core editor" />
+	</Prerequisites>
+
+	<Assets>
+		<!-- VSIX Package principal -->
+		<Asset Type="Microsoft.VisualStudio.VsPackage"
+			   d:Source="Project"
+			   d:ProjectName="%CurrentProject%"
+			   Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+
+		<!-- MEF Component -->
+		<Asset Type="Microsoft.VisualStudio.MefComponent"
+			   d:Source="Project"
+			   d:ProjectName="%CurrentProject%"
+			   Path="|%CurrentProject%|" />
+	</Assets>
+</PackageManifest>

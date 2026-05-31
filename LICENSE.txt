@@ -1,0 +1,55 @@
+﻿Note: This agreement is provided in both English and Portuguese. 
+Both versions are equally valid. In case of conflict, the author’s interpretation prevails.
+
+END USER LICENSE AGREEMENT (EULA)
+
+This software is provided free of charge for use by individuals and organizations, including companies, under the following terms:
+
+1. Usage Rights
+   - The software may be used at no cost for personal or corporate purposes.
+   - Internal use within companies is permitted, provided it does not involve redistribution or commercialization.
+
+2. Restrictions
+   - Modification, reverse engineering, decompilation, or creation of derivative works is prohibited.
+   - Redistribution, sublicensing, sale, or copying of the software, in whole or in part, is prohibited.
+   - Removal or alteration of copyright notices is prohibited.
+
+3. Intellectual Property
+   - The software remains the exclusive property of the author.
+   - No ownership rights are transferred to the user.
+
+4. Warranty and Liability
+   - The software is provided "as is", without any warranties of any kind.
+   - The author shall not be held liable for any direct or indirect damages resulting from the use of the software.
+
+5. Acceptance
+   - By using this software, you acknowledge and agree to all terms of this EULA.
+
+===================================================================================================================================
+
+Nota: Este acordo é disponibilizado em inglês e português. 
+Ambas as versões têm validade igual. Em caso de conflito, prevalece a interpretação do autor.
+
+ACORDO DE LICENÇA DE USUÁRIO FINAL (EULA)
+
+Este software é disponibilizado gratuitamente para uso por indivíduos e organizações, incluindo empresas, desde que respeitados os seguintes termos:
+
+1. Direitos de Uso
+   - O software pode ser utilizado sem custo para fins pessoais ou corporativos.
+   - É permitido o uso interno em empresas, desde que não envolva redistribuição ou comercialização.
+
+2. Restrições
+   - É proibida a modificação, engenharia reversa, descompilação ou criação de trabalhos derivados.
+   - É proibida a redistribuição, sublicenciamento, venda ou cópia, total ou parcial, do software.
+   - É proibida a remoção ou alteração de avisos de direitos autorais.
+
+3. Propriedade Intelectual
+   - O software permanece propriedade exclusiva do autor.
+   - Nenhum direito de propriedade é transferido ao usuário.
+
+4. Garantia e Responsabilidade
+   - O software é fornecido "como está", sem garantias de qualquer tipo.
+   - O autor não se responsabiliza por danos diretos ou indiretos resultantes do uso do software.
+
+5. Aceitação
+   - Ao utilizar este software, você declara estar ciente e de acordo com todos os termos deste EULA.
