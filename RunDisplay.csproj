@@ -7,10 +7,11 @@
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseWPF>true</UseWPF>
 	<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	<RepositoryUrl>https://github.com/Leonasser/RunDisplay</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Resources\DisplayBackground - Copia.png" />
-    <None Remove="Resources\DisplayBackground.png" />
     <None Remove="RunDisplayPackage.vsct" />
   </ItemGroup>
   <ItemGroup>
@@ -29,7 +30,6 @@
     <Reference Include="System.Xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\DisplayBackground - Copia.png" />
     <Resource Include="Resources\DisplayBackground.png" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +37,12 @@
       <ResourceName>Menus.ctmenu</ResourceName>
       <Generator>VsctGenerator</Generator>
     </VSCTCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
   
 </Project>

@@ -4,11 +4,15 @@
                  xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 	<Metadata>
 		<Identity Id="RunDisplay.5d077175-ae5b-43f2-9ff1-7497f5fa0c31"
-				  Version="1.0"
+				  Version="1.0.0"
 				  Language="en-US"
-				  Publisher="RunDisplay" />
-		<DisplayName>RunDisplay</DisplayName>
-		<Description>Extensão RunDisplay com API pública.</Description>
+				  Publisher="Leonardo Nasser" />
+		<DisplayName>RunDisplay Extension</DisplayName>
+		<Description>RunDisplay is a Visual Studio extension that adds a custom ToolWindow with a built-in stopwatch and visual feedback to track code execution in real time.</Description>
+		<MoreInfo>https://github.com/leonardo/RunDisplay</MoreInfo>
+		<License>LICENSE.txt</License>
+		<Icon>Resources\DisplayBackground.png</Icon>
+		<Tags>stopwatch, toolwindow, productivity, visual studio</Tags>
 	</Metadata>
 
 	<Installation>
@@ -31,16 +35,18 @@
 	</Prerequisites>
 
 	<Assets>
-		<!-- VSIX Package principal -->
 		<Asset Type="Microsoft.VisualStudio.VsPackage"
 			   d:Source="Project"
 			   d:ProjectName="%CurrentProject%"
 			   Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
 
-		<!-- MEF Component -->
 		<Asset Type="Microsoft.VisualStudio.MefComponent"
 			   d:Source="Project"
 			   d:ProjectName="%CurrentProject%"
 			   Path="|%CurrentProject%|" />
+
+		<Asset Type="Microsoft.VisualStudio.Icon"
+			   Path="Resources\DisplayBackground.png"
+			   d:Source="File" />
 	</Assets>
 </PackageManifest>

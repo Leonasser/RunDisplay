@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
 
         <Image x:Name="BackgroundImage"
-               Source="/RunDisplay;component/Resources/DisplayBackground - Copia.png"
+               Source="/RunDisplay;component/Resources/DisplayBackground.png"
                HorizontalAlignment="Center"
                VerticalAlignment="Top"
                Grid.Row="0" Stretch="Uniform">
